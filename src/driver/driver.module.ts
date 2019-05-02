@@ -2,12 +2,16 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { DriverLoginComponent } from './driver-login.component';
 import { DriverRegistrationComponent } from './driver-registration.component';
+import { DriverNotificationComponent } from './driver-notification.component';
+import { DriverHomeComponent } from './driver-home.component';
 
 
 @NgModule({
     declarations:[
         DriverLoginComponent,
-        DriverRegistrationComponent
+        DriverRegistrationComponent,
+        DriverNotificationComponent,
+        DriverHomeComponent
 
     ],
     imports:[
@@ -15,7 +19,9 @@ import { DriverRegistrationComponent } from './driver-registration.component';
     ],
     exports:[
         DriverLoginComponent,
-        DriverRegistrationComponent
+        DriverRegistrationComponent,
+        DriverNotificationComponent,
+        DriverHomeComponent
     ],
     providers:[
 
